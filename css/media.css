@@ -1,0 +1,484 @@
+@media(max-width:376px){
+    .header-container{
+        width: 90%;
+
+    }
+    .menu ul li{
+        display: none;
+    }
+    .menu button{
+        margin-top: 16px;
+    }
+    .banner-container{
+        width: 90%;
+    }
+    #banner{
+        height: 357px;
+    }
+    .banner-text{
+        width: 343px;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 25px;
+        padding-top: 63px;
+    }
+    .banner-text h4{
+        font-size: 16px;
+    }
+    .banner-text a button{
+        margin-top: 40px;
+    }
+    #clients{
+        padding: 20px 0;
+    }
+    .clients-container{
+        width: 90%;
+        grid-template-columns: auto auto;
+        text-align: center;
+        gap: 15px;
+    }
+    #about{
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .about-container{
+        width: 90%;
+        grid-template-columns: auto;
+    }
+    .about-text-left{
+        text-align: center;
+    }
+    .about-text-right{
+        grid-template-columns: auto;
+        text-align: center;
+        margin-top: 50px;
+        gap: 30px;
+    }
+    .about-box h4{
+        padding-top: 16px;
+    }
+    .about-box p{
+        padding-top: 15px;
+    }
+    #counts{
+        padding: 25px 0;
+    }
+    .counts-container{
+        width: 90%;
+        grid-template-columns: auto;
+    }
+    #tabs{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    } 
+    .tabs-container{
+        width: 90%;
+        
+       
+    }
+    .tabs-box{
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+
+    .tabs-box1 span{
+        display: none;
+    }
+    .tabs-box2 span{
+        display: none;
+    }
+    .tabs-box3 span{
+        display: none;
+    }
+    .tabs-box4 span{
+        display: none;
+    }
+    .tabs-box i{
+        padding-right: 0;
+        line-height: 30px;
+        font-size: 30px;
+    }
+    .tabs-box3{
+        height: 30px;
+    }
+    .row-container{
+        width: 90%;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .row-text{
+        order: 2;
+    }
+    .row-img{
+        order: 1;
+    }
+
+
+    .service-container{
+        width: 90%;
+    }
+    .service-title{
+        margin-bottom: 37px;
+    }
+    .service-content{
+        grid-template-columns: auto;
+        gap: 25px;
+    }
+    .porfholio-title{
+        width: 90%;
+    }
+    .porfholio-title ul{
+        margin-top: 40px;
+    }
+    .porfholio-title ul li a{
+        padding: 5px 12px;
+    }
+    .portfolio-container{
+        width: 90%;
+        grid-template-columns: auto;
+        gap: 15px;
+        padding: 20px 0;
+    }
+    #testimonials{
+        padding: 0;
+    }
+    .testimonials-title{
+        width: 90%;
+    }
+    .testimonials-container{
+        width: 90%;
+        grid-template-columns: auto;
+        padding-top: 31px;
+        gap: 18px;
+    }
+    .testimonials-item{
+        width: auto;
+    }
+    #pricing{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .pricing-title{
+        width: 90%;
+        padding-top: 21px;
+    }
+    .pricing-container{
+        width: 90%;
+        grid-template-columns: auto;
+        gap: 30px;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .box{
+        width: auto;
+        height: auto;
+    }
+    .box button{
+        margin-top: 10px;
+    }
+    .faq-container{
+        width: 90%;
+    }
+    .faq-title{
+        padding-top: 30px;
+    }
+    .faq-info{
+        padding-top: 30px;
+    }
+    .team-container{
+        width: 90%;
+    }
+    .team-title{
+        padding: 15px 0;
+    }
+    .team-title h4{
+        padding-bottom: 0;
+    }
+    .team-containet{
+        grid-template-columns: auto;
+    }
+    .team-img img{
+        height: auto;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    .contact-info{
+        grid-template-columns: auto;
+    }
+    .contact-info-box{
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .contact-box2{
+        
+        text-align: center;
+    }
+    #subject{
+        width: 90%;
+    }
+    #name{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #email{
+        width: 90%;
+        margin-left: 0;
+    }
+    #message{
+        width: 90%;
+    }
+    form button{
+        margin-left: 0;
+    }
+    .footer-top-box4 form{
+        margin-top: 15px;
+    }
+    .footer-top-container{
+        width: 90%;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .footer-dowen-container{
+        width: 90%;
+        grid-template-columns: auto;
+    }
+    .footer-dowen{
+        height: auto;
+        text-align: center;
+    }
+
+
+}
+
+
+@media(max-width: 1024px){
+    .header-container{
+        width: 90%;
+    }
+    .menu{
+        /* display: none; */
+        position: fixed;
+        top: 70px;
+        right: 0;
+        width: 30%;
+        height: 100vh;
+        background: #fff;
+        transform: translateX(300px);
+        transition: all 0.5s ease-in-out;
+    }
+    .show-menu-off-btn{
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        background-color: red;
+        padding: 5px 8px;
+        border-radius: 50%;
+    }
+    .show-menu{
+        transform: translateX(0);
+    }
+    .menu ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .toggle{
+        display: block;
+        float: right;
+        line-height: 70px;
+    }
+    .banner-container{
+        width: 90%;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-text h4{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .clients-container{
+        width: 90%;
+    }
+    .about-container{
+        width: 90%;
+    }
+    .about-container{
+        grid-template-columns: 38%, auto;
+        gap: 25px;
+    }
+    .counts-container{
+        width: 90%;
+    }
+    .tabs-container{
+        width: 90%;
+    }
+    .tabs-box{
+        width: 170px;
+    }
+    .tabs-box1 span{
+        font-size: 15px;
+    }
+    .tabs-box2 span{
+        font-size: 15px;
+    }
+    .tabs-box3 span{
+        font-size: 15px;
+    }
+    .tabs-box4 span{
+        font-size: 15px;
+    }
+    .row-container{
+        width: 90%;
+    }
+    .service-container{
+        width: 90%;
+    }
+    .porfholio-title{
+        width: 90%;
+    }
+    .portfolio-container{
+        width: 90%;
+    }
+    .testimonials-title{
+
+        width: 90%;
+    }
+    .testimonials-container{
+
+        width: 90%;
+    }
+    .testimonials-item{
+        width: 280px;
+    }
+    .pricing-title{
+        width: 90%;
+    }
+    .pricing-container{
+        width: 90%;
+    }
+    .box{
+        width: 250px;
+    }
+    .faq-container{
+        width: 90%;
+    }
+    .team-container{
+        width: 90%;
+    }
+    .team-containet{
+        gap: 10px;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    .footer-top-container{
+        width: 90%;
+    }
+    .footer-dowen-container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px){
+    #clients{
+        padding: 20px 0;
+    }
+    .clients-container{
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+    .clients-info{
+        text-align: center;
+    }
+    .about-container{
+        grid-template-columns: auto;
+    }
+    .about-text-left{
+        text-align: center;
+    }
+    .tabs-box{
+        width: 100px;
+    }
+    .tabs-box1 span{
+        display: none;
+    }
+    .tabs-box2 span{
+        display: none;
+    }
+    .tabs-box3 span{
+        display: none;
+    }
+    .tabs-box4 span{
+        display: none;
+    }
+    .tabs-box{
+        grid-template-columns: auto;
+        /* align-items: center; */
+        text-align: center;
+    }
+    .row-container{
+        grid-template-columns: auto;
+    }
+    .testimonials-container{
+        grid-template-columns: auto auto;
+    }
+    .testimonials-item{
+        width: 320px;
+    }
+    .pricing-container{
+        grid-template-columns: auto auto;
+    }
+    .box{
+        width: 280px;
+    }
+    .team-containet{
+        grid-template-columns: auto auto;
+    }
+    .contact-info-box{
+        grid-template-columns: auto;
+    }
+    .footer-top-container{
+        grid-template-columns: auto auto;
+    }
+   
+}
+
+@media(max-width: 320px){
+    .banner-text h1{
+        font-size: 25px;
+    }
+    .banner-text h4{
+        font-size: 15px;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .clients-container{
+        grid-template-columns: auto auto;
+    }
+    .tabs-box{
+        width: 14px;
+    }
+    .testimonials-container{
+        grid-template-columns: auto;
+    }
+    .pricing-container{
+        grid-template-columns: auto;
+    }
+    .team-containet{
+        grid-template-columns: auto;
+    }
+    .box{
+        width: 80%;
+    }
+    .testimonials-item{
+        width: 80%;
+    }
+}
